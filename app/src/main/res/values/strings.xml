@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">OurStory</string>
+
+
+    <string-array name="general_site_names">
+        <item>National Autism Resources information on PECS</item>
+        <item>PECS USA information</item>
+
+    </string-array>
+
+    <string-array name="general_info">
+        <item>https://www.nationalautismresources.com/the-picture-exchange-communication-system-pecs/</item>
+        <item>http://www.pecsusa.com/pecs.php</item>
+    </string-array>
+
+    <string-array name="pecs_site_names">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="pecs_links">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+</resources>

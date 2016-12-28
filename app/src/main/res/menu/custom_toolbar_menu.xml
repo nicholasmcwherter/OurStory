@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_info"
+        android:title="Information"
+        android:icon="@drawable/info"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/twoChoicesItem"
+        android:title="Two Choices"
+        android:icon="@drawable/number_2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/threeChoicesItem"
+        android:title="Three Choices"
+        android:icon="@drawable/number_3"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/fourChoicesItem"
+        android:title="Four Choices"
+        android:icon="@drawable/number_4"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/editTwoChoicesItem"
+        android:title="Two Choices"
+        android:icon="@drawable/number_2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/editThreeChoicesItem"
+        android:title="Three Choices"
+        android:icon="@drawable/number_3"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/editFourChoicesItem"
+        android:title="Four Choices"
+        android:icon="@drawable/number_4"
+        app:showAsAction="always" />
+
+
+
+
+</menu>

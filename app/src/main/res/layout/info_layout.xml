@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aboutus_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resources"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/info_text">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Info"
+            android:id="@+id/gen_info_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gen_site1"
+            android:layout_below="@+id/gen_info_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gen_site2"
+            android:layout_below="@+id/gen_site1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pecs_info_text"
+            android:layout_below="@+id/gen_site2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PECS Info"
+            android:id="@+id/pecs_info"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
